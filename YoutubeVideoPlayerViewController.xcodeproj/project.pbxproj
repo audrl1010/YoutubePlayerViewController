@@ -8,20 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		8BF1FF8E1FA21E590045F29D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FF8D1FA21E590045F29D /* AppDelegate.swift */; };
-		8BF1FF901FA21E590045F29D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FF8F1FA21E590045F29D /* ViewController.swift */; };
-		8BF1FF931FA21E590045F29D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF1FF911FA21E590045F29D /* Main.storyboard */; };
 		8BF1FF951FA21E590045F29D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF1FF941FA21E590045F29D /* Assets.xcassets */; };
 		8BF1FF981FA21E590045F29D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF1FF961FA21E590045F29D /* LaunchScreen.storyboard */; };
+		8BF1FFAD1FA21EBA0045F29D /* SmartAssign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFA51FA21EB90045F29D /* SmartAssign.swift */; };
+		8BF1FFAE1FA21EBA0045F29D /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFA61FA21EB90045F29D /* HelperFunctions.swift */; };
+		8BF1FFAF1FA21EBA0045F29D /* UIScrollView+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFA71FA21EB90045F29D /* UIScrollView+ManualLayout.swift */; };
+		8BF1FFB01FA21EBA0045F29D /* UIView+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFA81FA21EB90045F29D /* UIView+ManualLayout.swift */; };
+		8BF1FFB11FA21EBA0045F29D /* CALayer+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFA91FA21EB90045F29D /* CALayer+ManualLayout.swift */; };
+		8BF1FFB21FA21EBA0045F29D /* UIViewController+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFAA1FA21EBA0045F29D /* UIViewController+ManualLayout.swift */; };
+		8BF1FFB31FA21EBA0045F29D /* CGRect+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFAB1FA21EBA0045F29D /* CGRect+ManualLayout.swift */; };
+		8BF1FFB51FA21EBF0045F29D /* FluidAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFB41FA21EBF0045F29D /* FluidAnchor.swift */; };
+		8BF1FFB71FA21EC30045F29D /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFB61FA21EC30045F29D /* Then.swift */; };
+		8BF1FFB91FA21EC80045F29D /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFB81FA21EC80045F29D /* Base.swift */; };
+		8BF1FFBB1FA21ECE0045F29D /* CGFloatLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFBA1FA21ECE0045F29D /* CGFloatLiteral.swift */; };
+		8BF1FFBD1FA21ED60045F29D /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFBC1FA21ED60045F29D /* UIView+Animation.swift */; };
+		8BF1FFC01FA21EF50045F29D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFBF1FA21EF50045F29D /* MainViewController.swift */; };
+		8BF1FFC21FA21EFB0045F29D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFC11FA21EFB0045F29D /* PlayerViewController.swift */; };
+		8BF1FFC41FA21F000045F29D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFC31FA21F000045F29D /* Player.swift */; };
+		8BF1FFC61FA21F080045F29D /* PlayerControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFC51FA21F080045F29D /* PlayerControl.swift */; };
+		8BF1FFC81FA21F0F0045F29D /* PopUpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFC71FA21F0F0045F29D /* PopUpImageView.swift */; };
+		8BF1FFCA1FA21F170045F29D /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFC91FA21F170045F29D /* Slider.swift */; };
+		8BF1FFCC1FA21F2E0045F29D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FFCB1FA21F2E0045F29D /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BF1FF8A1FA21E590045F29D /* YoutubeVideoPlayerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeVideoPlayerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF1FF8D1FA21E590045F29D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BF1FF8F1FA21E590045F29D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8BF1FF921FA21E590045F29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BF1FF941FA21E590045F29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF1FF971FA21E590045F29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BF1FF991FA21E590045F29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF1FFA51FA21EB90045F29D /* SmartAssign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartAssign.swift; sourceTree = "<group>"; };
+		8BF1FFA61FA21EB90045F29D /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		8BF1FFA71FA21EB90045F29D /* UIScrollView+ManualLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ManualLayout.swift"; sourceTree = "<group>"; };
+		8BF1FFA81FA21EB90045F29D /* UIView+ManualLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ManualLayout.swift"; sourceTree = "<group>"; };
+		8BF1FFA91FA21EB90045F29D /* CALayer+ManualLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+ManualLayout.swift"; sourceTree = "<group>"; };
+		8BF1FFAA1FA21EBA0045F29D /* UIViewController+ManualLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ManualLayout.swift"; sourceTree = "<group>"; };
+		8BF1FFAB1FA21EBA0045F29D /* CGRect+ManualLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+ManualLayout.swift"; sourceTree = "<group>"; };
+		8BF1FFAC1FA21EBA0045F29D /* ManualLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualLayout.h; sourceTree = "<group>"; };
+		8BF1FFB41FA21EBF0045F29D /* FluidAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidAnchor.swift; sourceTree = "<group>"; };
+		8BF1FFB61FA21EC30045F29D /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		8BF1FFB81FA21EC80045F29D /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		8BF1FFBA1FA21ECE0045F29D /* CGFloatLiteral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatLiteral.swift; sourceTree = "<group>"; };
+		8BF1FFBC1FA21ED60045F29D /* UIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		8BF1FFBF1FA21EF50045F29D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8BF1FFC11FA21EFB0045F29D /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		8BF1FFC31FA21F000045F29D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8BF1FFC51FA21F080045F29D /* PlayerControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControl.swift; sourceTree = "<group>"; };
+		8BF1FFC71FA21F0F0045F29D /* PopUpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpImageView.swift; sourceTree = "<group>"; };
+		8BF1FFC91FA21F170045F29D /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		8BF1FFCB1FA21F2E0045F29D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +90,87 @@
 			isa = PBXGroup;
 			children = (
 				8BF1FF8D1FA21E590045F29D /* AppDelegate.swift */,
-				8BF1FF8F1FA21E590045F29D /* ViewController.swift */,
-				8BF1FF911FA21E590045F29D /* Main.storyboard */,
+				8BF1FFBF1FA21EF50045F29D /* MainViewController.swift */,
+				8BF1FFC11FA21EFB0045F29D /* PlayerViewController.swift */,
+				8BF1FFC31FA21F000045F29D /* Player.swift */,
+				8BF1FFCB1FA21F2E0045F29D /* PlayerView.swift */,
+				8BF1FFC51FA21F080045F29D /* PlayerControl.swift */,
+				8BF1FFC71FA21F0F0045F29D /* PopUpImageView.swift */,
+				8BF1FFC91FA21F170045F29D /* Slider.swift */,
+				8BF1FFBE1FA21EDD0045F29D /* Utils */,
 				8BF1FF941FA21E590045F29D /* Assets.xcassets */,
 				8BF1FF961FA21E590045F29D /* LaunchScreen.storyboard */,
 				8BF1FF991FA21E590045F29D /* Info.plist */,
 			);
 			path = YoutubeVideoPlayerViewController;
+			sourceTree = "<group>";
+		};
+		8BF1FF9F1FA21E8A0045F29D /* FluidAnchor */ = {
+			isa = PBXGroup;
+			children = (
+				8BF1FFB41FA21EBF0045F29D /* FluidAnchor.swift */,
+			);
+			path = FluidAnchor;
+			sourceTree = "<group>";
+		};
+		8BF1FFA01FA21E8F0045F29D /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				8BF1FFB61FA21EC30045F29D /* Then.swift */,
+			);
+			path = Then;
+			sourceTree = "<group>";
+		};
+		8BF1FFA11FA21E910045F29D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8BF1FFB81FA21EC80045F29D /* Base.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8BF1FFA21FA21E920045F29D /* CGFloatLiteral */ = {
+			isa = PBXGroup;
+			children = (
+				8BF1FFBA1FA21ECE0045F29D /* CGFloatLiteral.swift */,
+			);
+			path = CGFloatLiteral;
+			sourceTree = "<group>";
+		};
+		8BF1FFA31FA21E940045F29D /* UIView+Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8BF1FFBC1FA21ED60045F29D /* UIView+Animation.swift */,
+			);
+			path = "UIView+Animation";
+			sourceTree = "<group>";
+		};
+		8BF1FFA41FA21EAF0045F29D /* ManualLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8BF1FFA91FA21EB90045F29D /* CALayer+ManualLayout.swift */,
+				8BF1FFAB1FA21EBA0045F29D /* CGRect+ManualLayout.swift */,
+				8BF1FFA61FA21EB90045F29D /* HelperFunctions.swift */,
+				8BF1FFAC1FA21EBA0045F29D /* ManualLayout.h */,
+				8BF1FFA51FA21EB90045F29D /* SmartAssign.swift */,
+				8BF1FFA71FA21EB90045F29D /* UIScrollView+ManualLayout.swift */,
+				8BF1FFA81FA21EB90045F29D /* UIView+ManualLayout.swift */,
+				8BF1FFAA1FA21EBA0045F29D /* UIViewController+ManualLayout.swift */,
+			);
+			path = ManualLayout;
+			sourceTree = "<group>";
+		};
+		8BF1FFBE1FA21EDD0045F29D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8BF1FFA11FA21E910045F29D /* Base */,
+				8BF1FFA41FA21EAF0045F29D /* ManualLayout */,
+				8BF1FFA31FA21E940045F29D /* UIView+Animation */,
+				8BF1FFA21FA21E920045F29D /* CGFloatLiteral */,
+				8BF1FFA01FA21E8F0045F29D /* Then */,
+				8BF1FF9F1FA21E8A0045F29D /* FluidAnchor */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +234,6 @@
 			files = (
 				8BF1FF981FA21E590045F29D /* LaunchScreen.storyboard in Resources */,
 				8BF1FF951FA21E590045F29D /* Assets.xcassets in Resources */,
-				8BF1FF931FA21E590045F29D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +244,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF1FF901FA21E590045F29D /* ViewController.swift in Sources */,
+				8BF1FFB91FA21EC80045F29D /* Base.swift in Sources */,
+				8BF1FFAD1FA21EBA0045F29D /* SmartAssign.swift in Sources */,
+				8BF1FFB51FA21EBF0045F29D /* FluidAnchor.swift in Sources */,
+				8BF1FFCC1FA21F2E0045F29D /* PlayerView.swift in Sources */,
+				8BF1FFAE1FA21EBA0045F29D /* HelperFunctions.swift in Sources */,
+				8BF1FFC41FA21F000045F29D /* Player.swift in Sources */,
+				8BF1FFB21FA21EBA0045F29D /* UIViewController+ManualLayout.swift in Sources */,
+				8BF1FFBD1FA21ED60045F29D /* UIView+Animation.swift in Sources */,
+				8BF1FFC61FA21F080045F29D /* PlayerControl.swift in Sources */,
 				8BF1FF8E1FA21E590045F29D /* AppDelegate.swift in Sources */,
+				8BF1FFCA1FA21F170045F29D /* Slider.swift in Sources */,
+				8BF1FFC01FA21EF50045F29D /* MainViewController.swift in Sources */,
+				8BF1FFB11FA21EBA0045F29D /* CALayer+ManualLayout.swift in Sources */,
+				8BF1FFB01FA21EBA0045F29D /* UIView+ManualLayout.swift in Sources */,
+				8BF1FFB31FA21EBA0045F29D /* CGRect+ManualLayout.swift in Sources */,
+				8BF1FFBB1FA21ECE0045F29D /* CGFloatLiteral.swift in Sources */,
+				8BF1FFAF1FA21EBA0045F29D /* UIScrollView+ManualLayout.swift in Sources */,
+				8BF1FFC81FA21F0F0045F29D /* PopUpImageView.swift in Sources */,
+				8BF1FFB71FA21EC30045F29D /* Then.swift in Sources */,
+				8BF1FFC21FA21EFB0045F29D /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8BF1FF911FA21E590045F29D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BF1FF921FA21E590045F29D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8BF1FF961FA21E590045F29D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,6 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CU3LKXLMCE;
 				INFOPLIST_FILE = YoutubeVideoPlayerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smg.YoutubeVideoPlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +411,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CU3LKXLMCE;
 				INFOPLIST_FILE = YoutubeVideoPlayerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smg.YoutubeVideoPlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
