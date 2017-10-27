@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BBCEED31FA30917006652C7 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCEED21FA30917006652C7 /* Spinner.swift */; };
 		8BF1FF8E1FA21E590045F29D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FF8D1FA21E590045F29D /* AppDelegate.swift */; };
 		8BF1FF951FA21E590045F29D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF1FF941FA21E590045F29D /* Assets.xcassets */; };
 		8BF1FF981FA21E590045F29D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF1FF961FA21E590045F29D /* LaunchScreen.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BBCEED21FA30917006652C7 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		8BF1FF8A1FA21E590045F29D /* YoutubeVideoPlayerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeVideoPlayerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF1FF8D1FA21E590045F29D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BF1FF941FA21E590045F29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				8BF1FFC51FA21F080045F29D /* PlayerControl.swift */,
 				8BF1FFC71FA21F0F0045F29D /* PopUpImageView.swift */,
 				8BF1FFC91FA21F170045F29D /* Slider.swift */,
+				8BBCEED21FA30917006652C7 /* Spinner.swift */,
 				8BF1FFBE1FA21EDD0045F29D /* Utils */,
 				8BF1FF941FA21E590045F29D /* Assets.xcassets */,
 				8BF1FF961FA21E590045F29D /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 				8BF1FFBD1FA21ED60045F29D /* UIView+Animation.swift in Sources */,
 				8BF1FFC61FA21F080045F29D /* PlayerControl.swift in Sources */,
 				8BF1FF8E1FA21E590045F29D /* AppDelegate.swift in Sources */,
+				8BBCEED31FA30917006652C7 /* Spinner.swift in Sources */,
 				8BF1FFCA1FA21F170045F29D /* Slider.swift in Sources */,
 				8BF1FFC01FA21EF50045F29D /* MainViewController.swift in Sources */,
 				8BF1FFB11FA21EBA0045F29D /* CALayer+ManualLayout.swift in Sources */,

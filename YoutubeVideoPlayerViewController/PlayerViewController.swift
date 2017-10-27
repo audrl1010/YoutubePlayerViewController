@@ -48,9 +48,7 @@ class PlayerViewController: BaseViewController {
     $0.backgroundColor = .clear
   }
   
-  var spinner = UIActivityIndicatorView().then {
-    $0.activityIndicatorViewStyle = .whiteLarge
-  }
+  var spinner = Spinner()
   
   private(set) var isReadyForDisplay: Bool = false
   
@@ -109,7 +107,7 @@ class PlayerViewController: BaseViewController {
       playerControl.alpha = 0
     }
     
-    return [playerView, playerControl, spinner]
+    return [playerView, spinner, playerControl]
   }
   
   override func setupConstraints() {
